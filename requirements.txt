@@ -28,9 +28,11 @@ dill==0.2.9
 dnspython==1.16.0
 docopt==0.6.2
 docutils==0.14
+dominate==2.6.0
 entrypoints==0.3
 fastavro==0.21.24
 Flask==1.1.1
+Flask-Bootstrap==3.3.7.1
 Flask-WTF==0.14.3
 future==0.17.1
 glyph==2.6.5b0
@@ -166,6 +168,7 @@ ufw==0.36
 urllib3==1.25.3
 vboxapi==1.0
 virtualenv==16.7.3
+visitor==0.1.3
 wafw00f==0.9.4
 wcwidth==0.1.7
 webencodings==0.5.1

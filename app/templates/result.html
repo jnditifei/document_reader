@@ -1,8 +1,8 @@
-<html>
-    <head>
-        <title>{{ title }} - Document reader</title>
-    </head>
-    <body>
+
+{% extends 'base.html' %}
+{% block title %}{{ title }} - Document reader{% endblock %}
+
+    {% block content %}
     {% if title == "Credit Card Scan" %}
     <p>Credit Card Number: {{data}}</p>
     {% endif %}
@@ -15,7 +15,5 @@
         <li>Type de document: {{data['type']}}</li>
     </ul>
     {% endif %}
-
-
-    </body>
-</html>
+    {% endblock %}
+    {% block app_content %}{% endblock %}
