@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>{{ title }} - Document reader</title>
+    </head>
+    <body>
+    {% if title == "Credit Card Scan" %}
+    <p>Credit Card Number: {{data}}</p>
+    {% endif %}
+
+    {% if title == "Document Scan" %}
+        <ul>
+        <li>Nom: {{data['names']}}</li>
+        <li>Prénom: {{data['surname']}}</li>
+        <li>Pays: {{data['country']}}</li>
+        <li>Type de document: {{data['type']}}</li>
+    </ul>
+    {% endif %}
+
+
+    </body>
+</html>
